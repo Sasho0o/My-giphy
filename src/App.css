@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    background-color: #140424;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .gifs {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .gif {
+    padding: 0 2px;
   }
-}
+  
+  .loader {
+    color: blue;
+  }
+
+  .search-input{
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-input input{
+    width: 70%;
+  }
+
+  .shortcutButtons{
+    background-color: #0d6efd;
+    color: aliceblue;
+    border-radius: 8px;
+    margin-right: 8px;
+    border-style: none;
+    padding: 16px 22px;
+    font-size: 18px;
+  }
+
+  .nav-buttons{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    max-width: 1320px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+
+  .nav-buttons .shortcutButtons{
+    margin-right: 20px ;
+  }
